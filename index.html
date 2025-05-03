@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tela de Login </title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+
+</head>
+<body>
+
+    
+    <div class="cabecario">
+        <header>
+            <ul>
+                 <li>Precisa de uma conta?</li>
+                 <a href = "./indexo.html"><button><li>Cadastre-se</li></button></a>
+             </ul>
+        </header>
+    </div>
+    
+    <div class="container-principal">
+        <div class="formulario">
+            <form id="form-login" action="./php/login.php" method="POST">
+
+                <h3> Login </h3>
+                <hr>
+                <h4>Bem vindo de volta! Logue em sua conta.</h4>
+                
+                <input type="text" name="usuario" placeholder="Usuário" id="usuario" required="true" 
+                minlength="3" maxlength="15">
+
+                <input type="password" name="senha" placeholder="Senha" id="senha" required="true" 
+                minlength="3" maxlength="8">
+
+                <h4><a href="#"> Esqueceu sua senha? </a></h4>
+
+                <input type="submit" value="Logar">
+            </form>
+        </div>    
+    </div>
+</body>
+</html>

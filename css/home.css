@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+
+}
+
+.container{
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.logo h1{
+    color: black;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 19px;
+}
+
+header{
+    background-color: white;
+    height: 140px;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+    font-family:Helvetica;
+}
+
+#btn:hover{
+    background-color: rgb(180, 71, 242) ;
+    transition: 0.5s all;
+    color: white;
+}
+
+#btn{
+    border: 2px solid rgb(180, 71, 242);
+    padding: 10px;
+    border-radius: 15px;
+}
